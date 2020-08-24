@@ -153,12 +153,14 @@ font-family: 'Do Hyeon', sans-serif;
 }
 
 .title {
+  font-size: 15px;  
   line-height: 1.0;
   text-align: center;
   color: Black;
 }
 
 .subtitle {
+  font-size: 15px;  
   line-height: 1.0;
   text-align: center;
   color: Purple;
