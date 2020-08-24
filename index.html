@@ -197,7 +197,7 @@
 
 
             let URL;  
-            const urlFemale = 'https://teachablemachine.withgoogle.com/models/mfXvAeSpb/'; 
+            const urlFemale = 'https://teachablemachine.withgoogle.com/models/urDE3Anb2/'; 
             const urlMale = 'https://teachablemachine.withgoogle.com/models/iESN_Xx4f/';
             
             var st = $(":input:radio[name=gender]:checked").val();     
@@ -224,87 +224,87 @@
                 console.log(prediction[0].className);          
                 var resultMessage, resultEng, resultImage;
                 switch (prediction[0].className) {
-                    case "아리엘(Ariel)[인어공주]":
+                    case "아리엘 [인어공주]":
                         resultMessage = "아리엘 [인어공주]"
                         resultEng = "[Ariel in Little Mermaid]"
                         resultImage = "https://i.chzbgr.com/full/4913039360/h6931BD01/ariana-grande-victorious-totally-looks-like-ariel-the-little-mermaid"
                         break;
-                    case "오로라(Aurora)[잠자는 공주]":
+                    case "오로라 [잠자는 공주]":
                         resultMessage = "오로라 [잠자는 공주]"
                         resultEng = "[Aurora in Sleeping Beauty]"
                         resultImage = "https://i.chzbgr.com/full/6488903936/hB75C52A0/dianna-agron-totally-looks-like-aurora-sleeping-beauty"
                         break;
-                    case "벨(Belle)[미녀와 야수]":
+                    case "벨 [미녀와 야수]":
                         resultMessage = "벨 [미녀와 야수]"
                         resultEng = "[Belle in Beauty & the Beast]"                        
                         resultImage = "https://rotoscopers.com/wp-content/uploads/2015/01/index27.jpg"
                         break;
-                    case "신데렐라(Cinderella)[신데렐라]":
+                    case "신데렐라":
                         resultMessage = "신데렐라"
                         resultEng = "[Cinderella]"                        
                         resultImage = "https://statics.viralizalo.com/virs/2016/01/VIR_96218_8162_encuesta_original_o_remake.jpg?cb=9043"
                         break;
-                    case "안나(Anna)[겨울왕국]":
+                    case "안나 [겨울왕국]":
                         resultMessage = "안나 [겨울왕국]"
                         resultEng = "[Anna in Frozen]"                        
                         resultImage = "https://www.telegraph.co.uk/content/dam/theatre/2016/04/03/Frozen_trans_NvBQzQNjv4BqqVzuuqpFlyLIwiB6NTmJwfSVWeZ_vEN7c6bHu2jJnT8.jpg?imwidth=1400"
                         break;
-                    case "엘사(Elsa)[겨울왕국]":
+                    case "엘사 [겨울왕국]":
                         resultMessage = "엘사 [겨울왕국]"
                         resultEng = "[Elsa in Frozen]"                        
                         resultImage = "https://i.pinimg.com/originals/0b/8b/50/0b8b507ca6911122657b67e3d8d07ecb.jpg"
                         break;                        
-                    case "자스민(Jasmine)[알라딘]":
+                    case "자스민 [알라딘]":
                         resultMessage = "자스민 [알라딘]"
                         resultEng = "[Jasmine in Aladin]"                        
                         resultImage = "https://obs.line-scdn.net/0hPfJHm-CUD0l3MSXo3rlwHk5nDCZEXRxKEwdeVydfUX0IU09PTgIXfFs5BXpfU0gXHlZFK1J0UClbAhpMGQA/w644"
                         break;
-                    case "라푼젤(Rapunzel)[라푼젤]":
+                    case "라푼젤":
                         resultMessage = "라푼젤"
                         resulEng = "[Rapunzel]"                        
                         resultImage = "https://viraliq.com/wp-content/uploads/2018/01/cc-43.jpg"
                         break;
-                    case "백설공주(Snow White)[백설공주]":
+                    case "백설공주":
                         resultMessage = "백설공주"
                         resultEng = "[Snow White]"                        
                         resultImage = "https://i.chzbgr.com/full/6489032960/hB188ADAC/katy-perry-totally-looks-like-snow-white-snow-white"
                         break;
-                    case "아담(Adam)[미녀와 야수]":
+                    case "아담 [미녀와 야수]":
                         resultMessage = "아담 [미녀와 야수]"
                         resultEng = "[Adam in Beauty & the Beast]"                        
                         resultImage = "https://i.insider.com/58c6979180c5ac26008b4994?width=1100&format=jpeg&auto=webp"
                         break;
-                    case "알라딘(Aladin)[알라딘]":
+                    case "알라딘":
                         resultMessage = "알라딘"
                         resultEng = "[Aladin]"                        
                         resultImage = "https://i.pinimg.com/originals/1f/87/32/1f87320f6be147e3e98d5095c45f108a.jpg"
                         break;
-                    case "에릭(Eric)[인어공주]":
+                    case "에릭 [인어공주]":
                         resultMessage = "에릭 [인어공주]"
                         resultEng = "[Eric in Little Mermaid]"                        
                         resultImage = "https://globalnews.ca/wp-content/uploads/2019/11/jonah-hauer-king-prince-eric.jpg?quality=85&strip=all"
                         break;
-                    case "차밍(Charming)[신데렐라]":
+                    case "차밍 [신데렐라]":
                         resultMessage = "차밍 [신데렐라]"
                         resultEng = "[Charming in Cinderella]"                        
                         resultImage = "https://townsquare.media/site/442/files/2013/05/cinderella-richard-madden.jpg?w=980&q=75"
                         break;
-                    case "유진(Eugene)[라푼젤]":
+                    case "유진 [라푼젤]":
                         resultMessage = "유진 [라푼젤]"
                         resultEng = "[Eugene in Rapunzel]"                        
                         resultImage = "https://i.pinimg.com/originals/9f/fc/dc/9ffcdc39b3893e4646737cb55124d182.jpg"
                         break;
-                    case "플로리안(Florian)[백설공주]":
+                    case "플로리안 [백설공주]":
                         resultMessage = "플로리안 [백설공주]"
                         resultEng = "[Florian in Snow White]"                        
                         resultImage = "https://i.pinimg.com/originals/34/c4/26/34c4268696e35439c72e2cf026554f63.jpg"
                         break;
-                    case "크리스토프(Kristoff)[겨울왕국]":
+                    case "크리스토프 [겨울왕국]":
                         resultMessage = "크리스토프 [겨울왕국]"
                         resultEng = "[Kristoff in Frozen]"                        
                         resultImage = "https://img-9gag-fun.9cache.com/photo/a9R6A7j_460s.jpg"
                         break;
-                    case "필립(Phillip)[잠자는 공주]":
+                    case "필립 [잠자는 공주]":
                         resultMessage = "필립 [잠자는 공주]"
                         resultEng = "[Phillip in Sleeping Beauty]"                        
                         resultImage = "https://cdn1.thr.com/sites/default/files/2018/05/harris_dickinson_with_prince_phillip_from_sleeping_beauty-split-h_2018.jpg"
